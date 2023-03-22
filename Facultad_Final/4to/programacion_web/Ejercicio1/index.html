@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/styles.css">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <header class="header">
+                <div class="titulo">
+                    <h1>Agencia de automoviles seminuevos del Tío </h1>
+                </div>
+                <div class="logo">
+                    <img src="./resources/img/logo.png" alt="logo">
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li> <a href="/" class="mitem" data-tipo-auto="todos" >Inicio            </a> | </li>
+                        <li> <a href="#" class="mitem" data-tipo-auto="todos" >Todos los autos   </a> | </li>
+                        <li> <a href="#" class="mitem" data-tipo-auto="auto"  >Sedan             </a> | </li>
+                        <li> <a href="#" class="mitem" data-tipo-auto="suv"   >Suv               </a> | </li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="content" id="content">
+                <div class="grid-container" id="fichas">
+                    <div class="ficha">
+                        <img src="./resources/img/logo.webp" alt="Auto X">
+                            <div class="datos">
+                                <h3>Marca</h3>
+                                <span>Modelo</span>
+                                <span>Año</span>
+                                <br>
+                                <small>Potencia, kilometraje, cilindraje</small>
+                            </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+        <script src="./resources/js/app.js"></script>
+    </body>
+    </html>
